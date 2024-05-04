@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+
+		<meta charset="utf-8">
+ 	 	<title>siaitt</title>
+   	<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" type="text/css" media="screen" href="serif.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i&amp;subset=cyrillic" rel="stylesheet">
+
+	<body>
+
+		<div id="shapka">
+			<div id="igh">
+				<img id="logo" src="log.jpg" alt="">
+				<h1 id="txt">SSSSait</h1>
+			</div>
+		</div>
+
+		<div class="menu">
+			<div class="item s1"><a href="#start" title="главная">Home</a></div>
+		   <div class="item s2"><a href="#tablica" title="таблица">Table</a></div>
+		   <div class="item s3"><a href="#forum" title="о нас">About</a></div>
+		   <div class="item s4"><a href="#ifooter" title="контакты">Contacts</a></div>
+		</div>
+
+		<div class="struct">
+			<br/> 
+			<br/>
+			<ol>
+				<li><a href="http://example.com/" >ссылка на главную страницу сайта example.com</a></li>
+				<li><a href="https://example.com/" >ссылка на главную страницу сайта example.com</a></li>
+				<li><a href="ftp://<Логин>:<Пароль>@webstr.ru/tempo/file.txt  " >ссылка на файл на сервере FTP без авторизации </a></li>
+				<li><a href="ftp://usee:passs12345@webstr.ru/tempo/file.txt  " > ссылка на файл на сервере FTP с авторизацией </a></li>
+				<li><a href="https://en.wikipedia.org/wiki/Differential_equation#toc"> ссылку на фрагмент страницы некоторого сайта</a></li>
+				<li><a href="https://github.com/Fyodo9/3zadanie"> ссылку на фрагмент текущей страницы</a></li>
+				<li><a href="http://example.com/?productid=1234">ссылку с двумя параметрами в URL</a></li>
+				<li>список ссылок основной навигации сайта с подписями title
+					<ul>
+						<li><a href="#start" title="главная">ссылка 1</a></li>
+						<li><a href="#forum" title="форма">ссылка 2</a></li>
+						<li><a href="#site" title="отправить">ссылка 3</a></li>
+					</ul>
+				</li>
+				<li><a>ссылка без href </a></li>
+				<li><a href="https://github.com/Fyodo9/3zadanie" title="пустой">ссылку с пустым href;</a></li>
+				<li><a href="http://example.com/" rel="nofollow">ссылку, по которой запрещен переход поисковикам</a></li>
+				<li><a href="http://example.com/" rel="noindex">запрещенную для индексации поисковиками</a></li>
+				<li>текст текст текст<a href="https://example.com/  " >контекстную в тексте абзаца  </a>тексттекст</li>
+				<li><p><a href="https://github.com/Fyodo9/3zadanie"><img src="f7E7eOVpHVs.jpg" alt="Пример" width="150" height="150"></a></p></li>
+				<li><img src="un.jpg" alt="Навигация по сайту" usemap="#Navigation" width="100" height="50"><map id="Navigation" name="Navigation">
+	    			<area shape="rect" coords="10,10,45,40" href="https://github.com/Fyodo9/3zadanie" alt="Информация">
+					<area shape="circle" coords="75,25,20" href="https://github.com/Fyodo9/3zadanie" alt="Информация">
+					</map>
+				</li>
+				<li><a href="https://github.com/Fyodo9/3zadanie">относительную на страницу в текущем каталоге</a></li>
+				<li><a href="https://github.com/Fyodo9/3zadanie">относительную на страницу в каталоге about</a></li>
+				<li><a href="https://github.com/Fyodo9/3zadanie">относительную на страницу в каталоге уровнем выше текущего</a></li>
+				<li><a href="https://github.com/Fyodo9/3zadanie">относительную на страницу в каталоге двумя уровнями выше</a></li>
+				<li><a href="https://github.com/Fyodo9/3zadanie">сокращенную на главную</a></li>
+				<li><a href="#siiiite"> сокращенную ссылку на внутреннюю </a></li>
+			</ol>
+			<br/>
+			<br/>
+		</div>
+
+		<div id="tablica" class="struct">
+			<br/>
+			<br/>
+			<div>
+				<table>
+				 	<tbody>
+						<tr>
+					 		<th>Колка 1</th>
+					 		<th>Колка 2</th>
+					 		<th>Колонка 3</th>
+				 		</tr>
+
+				 		<tr>
+					 		<td colspan="2">Ячейка 11</td>
+					 		<td>Ячеа 11</td>
+				 		</tr>
+
+				 		<tr class="tr1">
+					 		<td colspan="2">Ячейка 22 </td>
+					 		<td>Ячейка 22 </td>
+				 		</tr>
+
+						<tr>
+							<td>Яч 3</td>
+							<td>Яч 3</td>
+							<td>Яч 3</td>
+						</tr>
+
+						<tr class="tr1">
+							<td>Яч 4</td>
+							<td colspan="2">Яче 4</td>
+						</tr>
+
+						<tr>
+							<td>Ячей 55</td>
+							<td>Ячейка 55</td>
+							<td>Яче 55</td>
+						</tr>
+
+			 </tbody></table>
+			 <br/>
+			 <br/>
+ 	 	</div>
+
+		</div>
+			<a id="forum"></a>
+
+		<div class="struct">
+			<div id="forma">
+			<br/>
+			<br/>
+		<h2 id="head2">Форма</h2>
+
+		<label>
+			Введите свое имя:<br />
+			<input class="in" name="field-name-1"
+			value="" />
+		</label><br />
+
+		<label>
+		 Ваш email:<br />
+		 <input class="in" name="field-email"
+		 value="test@example.com"
+		 type="email" />
+		</label><br />
+
+		<label>
+		 Дата рождения:<br />
+		 <input class="in" name="field-date"
+		 value="2020-09-14"
+		 type="date" />
+		</label><br />
+
+		 Ваш Пол:<br />
+		<label><input class="qwe" type="radio" checked="checked"
+		 name="radio-group-1" value="Значение1"/>
+			 М</label>
+		<label><input class="qwe" type="radio"
+		 name="radio-group-1" value="Значение2" />
+			Ж</label><br />
+
+
+			Количество конечностей:<br />
+		<label><input class="qwe" type="radio" checked="checked"
+		 name="radio-group-1" value="Значение1" />
+			1</label>
+		<label><input class="qwe" type="radio"
+		 name="radio-group-1" value="Значение2" />
+			2</label>
+		<label><input class="qwe" type="radio"
+		 name="radio-group-1" value="Значение2" />
+			0</label>
+		<br/>
+
+		<label>
+			Выберите вашу сверхспособность:
+			<br />
+			<select id="in2" name="field-name-4[]"
+			multiple="multiple">
+			<option value="Значение1">Бессмертие</option>
+			<option value="Значение2" selected="selected">Прохождение сквозь стены</option>
+			<option value="Значение3" selected="selected">Левитация</option>
+			</select>
+		</label><br />
+
+	 </div>
+	 </div>
+
+		<div id="ifooter">
+			<p id="footext"><br/>© Fyodorov Kirill 2021</p>
+		</div>
+
+</body>
+</html>
